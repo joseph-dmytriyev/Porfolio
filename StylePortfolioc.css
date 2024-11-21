@@ -3,47 +3,47 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #1a1a2e; /* Fond bleu nuit */
-    color: #ffffff; /* Texte en blanc */
+    background: #1a1a2e; 
+    color: #ffffff; 
 }
 
-/* Header principal */
+
 header {
     position: relative;
     width: 100%;
-    height: 350px; /* Hauteur du header */
+    height: 350px; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centrer verticalement le texte */
-    align-items: center; /* Centrer horizontalement le texte */
+    justify-content: center; 
+    align-items: center; 
     color: #fff;
-    overflow: hidden; /* Assure que l'image ne déborde pas */
+    overflow: hidden; 
 }
 
-/* Conteneur pour l'image dans le header */
+
 .header-image {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* L'image couvre tout le header */
+    height: 100%; 
     z-index: -1;
 }
 
 .header-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* L'image remplit le header en respectant ses proportions */
-    transition: transform 0.5s ease, filter 0.5s ease; /* Animation fluide */
+    object-fit: cover; 
+    transition: transform 0.5s ease, filter 0.5s ease; 
 }
 
-/* Effet de zoom au survol */
+
 .header-image:hover img {
-    transform: scale(1.1); /* Zoom léger */
-    filter: brightness(0.8); /* Légère obscurité */
+    transform: scale(1.1); 
+    filter: brightness(0.8); 
 }
 
-/* Texte dans le header */
+
 header h1 {
     font-size: 3em;
     margin: 0;
@@ -58,14 +58,14 @@ header p {
     z-index: 1;
 }
 
-/* Conteneur principal */
+
 .container {
     width: 90%;
     margin: 20px auto;
     overflow: hidden;
 }
 
-/* Navigation */
+
 nav {
     background: #333;
     color: #fff;
@@ -97,7 +97,7 @@ nav ul li a:hover {
     color: #ff00ff;
 }
 
-/* Sections */
+
 section {
     padding: 30px 0;
 }
@@ -144,7 +144,7 @@ section h2 {
     text-shadow: 0 0 10px #00ffff;
 }
 
-/* Pied de page */
+
 footer {
     text-align: center;
     padding: 15px 0;
@@ -160,7 +160,7 @@ footer p {
     text-shadow: 1px 1px 5px #ff00ff;
 }
 
-/* Boutons */
+
 button {
     background: linear-gradient(90deg, #00ffff, #ff00ff);
     color: #1a1a2e;
